@@ -41,12 +41,12 @@ The authentication logic is straightforward:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone "https://github.com/shivamngpal/Basic-Auth-HTTP-Server-Express"
     ```
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd <your-repo-name>
+    cd Basic-Auth-HTTP-Server-Express
     ```
 
 3.  **Install dependencies:**
