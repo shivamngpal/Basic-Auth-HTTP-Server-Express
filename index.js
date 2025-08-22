@@ -47,6 +47,7 @@ app.post('/signin',(req,res)=>{
     const password = req.body.password;
 
     // find() returns actual user object if found, else returns undefined
+    // find a user whose email and password matches with the user in our local database
     const foundUser = users.find(u => u.user_email===email && u.user_password===password);
 
     if(foundUser){
